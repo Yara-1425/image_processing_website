@@ -523,7 +523,11 @@ if uploaded_file:
         """)
         st.info("Implementation of Canny, Sobel, and Otsu Thresholding.")
 
-        gray_img = cv2.cvtColor(original_img, cv2.COLOR_RGB2GRAY)
+
+        if len(original_img.shape) == 3:
+            gray_img = cv2.cvtColor(original_img, cv2.COLOR_RGB2GRAY)
+        else:
+            gray_img = original_img
 
         # تعريف المصفوفات (Kernels)
         prewitt_x_kernel = np.array([
