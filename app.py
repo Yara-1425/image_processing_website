@@ -73,7 +73,10 @@ if uploaded_file:
             st.subheader("Image Metadata")
             height, width = original_img.shape[:2]
 
-            channels = original_img.shape[2]
+            if len(original_img.shape) > 2:
+                 channels = original_img.shape[2]
+            else:
+                channels = 1  # في حال كانت الصورة رمادية (Grayscale)
 
             st.write(f"Width : {width} pixels")
 
