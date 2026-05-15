@@ -308,7 +308,10 @@ if uploaded_file:
     # ============================================
     # Convert to Gray
     # ============================================
-        gray = cv2.cvtColor(original_img, cv2.COLOR_RGB2GRAY)
+        if len(original_img.shape) == 3:
+           gray = cv2.cvtColor(original_img, cv2.COLOR_RGB2GRAY)
+        else:
+           gray = original_img
 
         st.subheader("1. Original Grayscale Image")
         st.image(gray, use_container_width=True)
