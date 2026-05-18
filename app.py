@@ -49,7 +49,7 @@ with st.sidebar:
         st.info("Waiting for image upload...")
 
 #Main title
-st.title("Image Processing Lab")
+st.title("Bayan")
 st.markdown("Developed by **Alanoud, Shahad, Lamis, Nada, Yara**")
 
 # Create the 5 tabs
