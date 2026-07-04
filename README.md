@@ -69,35 +69,34 @@ The platform is meticulously organized into **5 interactive tabs**, mirroring a 
 
 ---
 
-##  Installation & Setup
+## Installation & Setup
 
 Follow these simple steps to run the lab environment locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/bayan-image-lab.git](https://github.com/your-username/bayan-image-lab.git)
-cd bayan-image-lab
+git clone [https://github.com/Yara-1425/image_processing_website.git](https://github.com/Yara-1425/image_processing_website.git)
+cd image_processing_website
 
 ```
 
 ### 2. Install Dependencies
 
-Ensure you have Python 3.8+ installed, then run:
+Ensure you have Python 3.8+ installed. You can install all required libraries at once using the `requirements.txt` file:
 
 ```bash
-pip install streamlit opencv-python numpy matplotlib pillow
+pip install -r requirements.txt
 
 ```
 
 ### 3. Launch the Application
 
+Run the Streamlit server using the main execution file:
+
 ```bash
 streamlit run app.py
 
 ```
-
-*(Note: Replace `app.py` with the exact name of your script file if it differs).*
-
 ---
 
 ## 💡 How to Use the Lab
