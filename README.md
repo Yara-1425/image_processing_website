@@ -110,11 +110,9 @@ If you prefer a faster setup without downloading the code locally, or want to de
 4. Select your forked repository (`image_processing_website`), ensure the branch is set to `main`, and type `app.py` as the **Main file path**.
 5. Click **Deploy!** Within a minute, your interactive lab will be live and running on the web.
 
-```
-
 ---
 
-## 💡 How to Use the Lab
+## How to Use the Lab
 
 1. Run the script via terminal to launch the local Streamlit development server.
 2. Open the **Control Panel** in the left sidebar.
