@@ -97,6 +97,21 @@ Run the Streamlit server using the main execution file:
 streamlit run app.py
 
 ```
+
+---
+
+## ⚡ Quick Run (Alternative Method)
+
+If you prefer a faster setup without downloading the code locally, or want to deploy it directly to the cloud, you can use the **Fork** method:
+
+1. **Fork this repository** to your personal GitHub account by clicking the **Fork** button at the top right of this page.
+2. Go to [Streamlit Community Cloud](https://share.streamlit.io/) and log in using your GitHub account.
+3. Click on **"New app"**.
+4. Select your forked repository (`image_processing_website`), ensure the branch is set to `main`, and type `app.py` as the **Main file path**.
+5. Click **Deploy!** Within a minute, your interactive lab will be live and running on the web.
+
+```
+
 ---
 
 ## 💡 How to Use the Lab
